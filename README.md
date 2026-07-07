@@ -2,7 +2,7 @@
 
 Practice outbreak investigation project tracking the July 2026 Legionnaires' disease
 cluster on Manhattan's Upper East Side (ZIP codes 10028, 10128, 10075). Built to
-practice applied R data analysis and reproducible reporting workflows — this is a
+practice applied R data analysis and reproducible reporting workflows. This is a
 **practice project**, published as a live snapshot and intended to be revisited in
 a few weeks once the outbreak resolves and more complete data may be available.
 
@@ -31,9 +31,8 @@ eventual resolution.
 │   └── clean/
 │       └── ues_legionnaires_cases.csv    # manually compiled case counts
 ├── output/
-│   └── figures/
-│       ├── ues_legionnaires_cumulative_curve.png
-│       └── ues_legionnaires_new_cases.png
+│   ├── ues_legionnaires_cumulative_curve.png
+|   └── ues_legionnaires_new_cases.png       
 ├── report/
 │   └── ues-legionnaires-report.Rmd       # full R Markdown analysis
 └── README.md
