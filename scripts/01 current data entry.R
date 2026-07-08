@@ -11,7 +11,7 @@ ues_legionnaires <- tibble(
 
 write_csv(ues_legionnaires, "data/ues_legionnaires_cases.csv")
 
-# Adding a source column
+# Adding a source column, if desired
 
 ues_legionnaires <- tibble(
   report_date = as.Date(c("2026-07-02", "2026-07-03", "2026-07-05",
