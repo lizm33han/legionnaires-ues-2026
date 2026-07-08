@@ -103,7 +103,7 @@ lesson it's built around:
 
 Data compiled and cleaned in R (tidyverse). Cumulative case curve and derived
 new-cases-per-reporting-interval chart built with ggplot2. Full analysis and
-narrative in `report/ues-legionnaires-report.Rmd`, knit to HTML.
+narrative in `report/ues-legionnaires-report.Rmd`, knit to Github document.
 
 ## Reproducing
 
